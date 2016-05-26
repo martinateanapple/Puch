@@ -77,10 +77,21 @@ class ChatViewController: UIViewController {
         
     }
     
+    func dismissKeyboard() {
+        
+        view.endEditing(true)
+        
+    }
+    
     override func viewDidLoad() {
+        
         retrieveMessages()
         super.viewDidLoad()
         messageAdded()
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+        
     }
 
     override func didReceiveMemoryWarning() {

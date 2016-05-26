@@ -45,7 +45,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="NDt-Mm-fzc">
                                 <rect key="frame" x="20" y="268" width="560" height="30"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" secureTextEntry="YES"/>
                                 <connections>
                                     <action selector="passwordReturnAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="640-TG-J94"/>
                                 </connections>
@@ -69,7 +69,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="RTd-ju-xSL">
                                 <rect key="frame" x="20" y="219" width="560" height="30"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" keyboardAppearance="alert"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -142,7 +142,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Send a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iTb-3y-ay4">
                                 <rect key="frame" x="20" y="78" width="511" height="30"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fMA-05-Nai">
                                 <rect key="frame" x="20" y="116" width="560" height="464"/>
@@ -198,12 +198,12 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Fh-Or-uOn">
                                 <rect key="frame" x="20" y="215" width="560" height="30"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" keyboardAppearance="alert"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="96B-Ui-RMW">
                                 <rect key="frame" x="20" y="264" width="560" height="30"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" secureTextEntry="YES"/>
                                 <connections>
                                     <action selector="passwordReturnAction:" destination="yLI-KJ-ugf" eventType="editingDidEndOnExit" id="R9a-K5-qdu"/>
                                     <action selector="passwordReturnAction:" destination="yLI-KJ-ugf" eventType="editingDidEnd" id="fHy-Ur-Yd4"/>
