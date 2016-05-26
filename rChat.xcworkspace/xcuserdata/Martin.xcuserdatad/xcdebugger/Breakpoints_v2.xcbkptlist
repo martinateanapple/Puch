@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rChat/ChatViewController.swift"
+            timestampString = "485873759.290399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ChatViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rChat.ChatViewController.__deallocating_deinit"
+                  moduleName = "rChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Martin/Documents/rChat/rChat/ChatViewController.swift"
+                  timestampString = "485873759.619812"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rChat.ChatViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; rChat.ChatViewController"
+                  moduleName = "rChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Martin/Documents/rChat/rChat/ChatViewController.swift"
+                  timestampString = "485873759.621944"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rChat.ChatViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;rChat.ChatViewController&gt;"
+                  moduleName = "rChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Martin/Documents/rChat/rChat/ChatViewController.swift"
+                  timestampString = "485873759.622092"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rChat/ChatViewController.swift"
+            timestampString = "485962089.24914"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "messageAdded()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rChat.ChatViewController.retrieveMessages () -&gt; ()"
+                  moduleName = "rChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Martin/Documents/rChat/rChat/ChatViewController.swift"
+                  timestampString = "485876820.230712"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rChat.ChatViewController.(retrieveMessages () -&gt; ()).(closure #1)"
+                  moduleName = "rChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Martin/Documents/rChat/rChat/ChatViewController.swift"
+                  timestampString = "485876820.230884"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

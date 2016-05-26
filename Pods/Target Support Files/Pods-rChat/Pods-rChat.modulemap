@@ -1,0 +1,6 @@
+framework module Pods_rChat {
+  umbrella header "Pods-rChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
